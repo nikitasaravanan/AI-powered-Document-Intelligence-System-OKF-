@@ -1,0 +1,38 @@
+
+# Python virtual environments
+okf_env/
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Generated OKF data
+input/
+output/
+index/
+data/
+chunks/
+
+# Local model and OCR files
+models/
+*.faiss
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
