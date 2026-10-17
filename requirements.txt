@@ -1,0 +1,11 @@
+# OKF - Open Knowledge Finder
+# Core Python dependencies
+
+PyMuPDF
+PyYAML
+sentence-transformers
+faiss-cpu
+pdf2image
+pytesseract
+Pillow
+requests
